@@ -27,7 +27,7 @@ $(foreach sku, CN GLOBAL, \
         $(DEVICE_PATH)/configs/hidl/manifest-nfc.xml))
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/davinci.config
+TARGET_KERNEL_CONFIG := davinci_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
