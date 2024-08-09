@@ -1,0 +1,29 @@
+[
+  {
+    "repository": "device_xiaomi_sm6150-common",
+    "target_path": "device/xiaomi/sm6150-common"
+  },
+  {
+    "repository": "vendor_xiaomi_davinci",
+    "target_path": "vendor/xiaomi/davinci"
+  },
+  {
+    "repository": "vendor_xiaomi_sm6150-common",
+    "target_path": "vendor/xiaomi/sm6150-common"
+  },
+  {
+    "repository": "kernel_xiaomi_sm6150",
+    "target_path": "kernel/xiaomi/sm6150"
+  },
+  {
+    "repository": "android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-21"
+  },
+  {
+    "repository": "chematelegram/android_vendor_xiaomi_miuicamera",
+    "target_path": "vendor/xiaomi/miuicamera",
+    "branch": "leica-5.0-davinci",
+    "remote": "gitlab"
+  }
+]
