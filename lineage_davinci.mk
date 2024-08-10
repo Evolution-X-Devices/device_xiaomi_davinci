@@ -17,6 +17,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Include the MIUI camera
 TARGET_USES_MIUI_CAMERA := true
 
+# Use MINI GApps
+TARGET_USES_MINI_GAPPS := true
+
 PRODUCT_NAME := lineage_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
