@@ -20,6 +20,9 @@ TARGET_USES_MIUI_CAMERA := true
 # Use MINI GApps
 TARGET_USES_MINI_GAPPS := true
 
+# Include Dolby
+TARGET_USES_DOLBY := true
+
 PRODUCT_NAME := lineage_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
