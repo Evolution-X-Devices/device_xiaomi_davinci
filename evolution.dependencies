@@ -21,7 +21,7 @@
   },
   {
     "repository": "chematelegram/android_vendor_xiaomi_miuicamera",
-    "target_path": "vendor/xiaomi/miuicamera",
+    "target_path": "vendor/xiaomi/miuicamera-davinci",
     "branch": "leica-5.0-davinci",
     "remote": "gitlab"
   }
