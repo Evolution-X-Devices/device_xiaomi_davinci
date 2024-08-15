@@ -57,6 +57,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
 
+# MiuiCamera
+ifeq ($(TARGET_USES_MIUI_CAMERA),true)
+TARGET_CAMERA_PACKAGE_NAME := com.android.camera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera-davinci/config.mk)
+endif
+
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
